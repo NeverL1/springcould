@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-support/eureka-support.iml" filepath="$PROJECT_DIR$/eureka-support/eureka-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould.iml" filepath="$PROJECT_DIR$/springcould.iml" />
+    </modules>
+  </component>
+</project>
