@@ -24,6 +24,17 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 
+opentracing:
+  jaeger:
+    enabled: true
+    log-spans: true
+    const-sampler:
+      decision: true
+    #将日志发送到agent
+    udp-sender:
+      host: localhost
+      port: 6831
+
 ribbon:
   eureka:
     enabled: true

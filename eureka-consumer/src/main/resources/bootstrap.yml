@@ -5,3 +5,14 @@ spring:
      name: consumer
      label: main
      profile: dev
+
+opentracing:
+  jaeger:
+    enabled: true
+    log-spans: true
+    const-sampler:
+      decision: true
+    #将日志发送到agent
+    udp-sender:
+      host: localhost
+      port: 6831

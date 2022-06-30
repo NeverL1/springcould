@@ -3,6 +3,8 @@ package com.ljc.eurekaserver;
 import com.ljc.eurekasupport.entity.User;
 import com.ljc.eurekasupport.result.Result;
 import com.ljc.eurekasupport.service.UserService;
+import com.netflix.discovery.DiscoveryClient;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,6 +19,7 @@ import javax.annotation.Resource;
  * @create: 2022-06-28 12:13
  **/
 @RestController
+@Slf4j
 public class UserController {
 
     @Resource

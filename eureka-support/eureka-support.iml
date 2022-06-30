@@ -33,8 +33,6 @@
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-client:1.9.17" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jettison:jettison:1.3.7" level="project" />
@@ -46,7 +44,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:guava:28.2-android" level="project" />
@@ -200,5 +197,24 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.2.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-spring-jaeger-starter:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-spring-tracer-configuration-starter:0.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-util:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-tracerresolver:0.1.6" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-client:0.35.1" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-thrift:0.35.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-core:0.35.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-tracerresolver:0.35.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-spring-cloud-feign-starter:0.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign.opentracing:feign-opentracing:0.3.0" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign.opentracing:feign-hystrix-opentracing:0.3.0" level="project" />
   </component>
 </module>
